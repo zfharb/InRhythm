@@ -9,10 +9,7 @@ export function longestWord(str) {
     let strArr = str.trim().split(' ');
     let longestStrSize=0;
     let longestStr='';
-    // if (strArr== false) {
-    //     throw 'string is empty';
-    // }
-
+   
     for (let x=0;x < strArr.length ;x++) {
         if(strArr[x].length > longestStrSize)
             {
